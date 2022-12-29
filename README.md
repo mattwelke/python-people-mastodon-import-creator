@@ -2,7 +2,7 @@
 
 A Python script that reads the latest version of the [Python People Gist](https://gist.github.com/samuelcolvin/1743d8919acb465c1fbbcea2c3cdaf3e), finds who on it is on Mastodon, and uses that to create a CSV file that can be imported into a Mastodon instance.
 
-Inspired by the ]Java Champions import](https://javachampions.org/resources/mastodon.csv).
+Inspired by the [Java Champions import](https://javachampions.org/resources/mastodon.csv).
 
 Creates a file that looks like this:
 
@@ -27,13 +27,13 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3) Use `pip` to install dependencies into the virtual env:
+Use `pip` to install dependencies into the virtual env:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4) Run the script with the virtual env's Python:
+Run the script with the virtual env's Python:
 
 ```bash
 python main.py
@@ -52,7 +52,7 @@ Added Armin Ronacher (@mitsuhiko@hachyderm.io).
 Done
 ```
 
-5) Use your Mastodon instance's import UI to import the file. If your goal is to follow people you aren't already following, and you're okay with the import turning off notifications for people you may already be following, do it like this:
+Use your Mastodon instance's import UI to import the file. If your goal is to follow people you aren't already following, and you're okay with the import turning off notifications for people you may already be following, do it like this:
 
 ![image](https://user-images.githubusercontent.com/7719209/209893094-bbd2a87f-7bf9-449c-a51d-01d37ef858c4.png)
 
