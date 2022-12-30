@@ -16,6 +16,14 @@ Account address,Show boosts,Notify on new posts,Languages
 
 ## Running
 
+### Deployed
+
+It is deployed to DigitalOcean as a Cloud Function and can be invoked at https://faas-nyc1-2ef2e6cc.doserverless.co/api/v1/web/fn-a47dad79-2f23-4177-bac6-ea2cb67d272d/default/python_people_mastodon_import. If you open this link in your web browser, it will download the CSV file.
+
+![image](https://user-images.githubusercontent.com/7719209/210112750-db7a606d-148a-4b54-a32c-3569efc7846e.png)
+
+### Locally
+
 Ensure you have Python 3 with pip installed.
 
 Clone the repo.
